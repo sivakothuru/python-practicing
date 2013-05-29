@@ -31,4 +31,7 @@ target.close()
 print "Now we are trying to read the contents of the file"
 
 txt_again = open(filename)
+
 print txt_again.read()
+
+txt_again.close()
